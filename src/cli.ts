@@ -338,11 +338,16 @@ function runList(opts: { config?: string }): void {
   console.log(`${bots.length} bot(s) in ${here(config.bots_file)}:\n`);
   for (const bot of bots) {
     const gaps = missingSlots(config, bot);
-    const mark = bot.kept ? '✓' : '·';
+    // kept is relative to the family folder, and outputs are not committed, so
+    // in a fresh checkout the pointer is real but the file is not.
+    const onDisk = bot.kept ? existsSync(join(config.root, bot.kept)) : false;
+    const mark = onDisk ? '✓' : '·';
     console.log(`  ${mark} ${slugify(bot.name)}  —  ${bot.head ?? '?'}, ${bot.primary ?? '?'}`);
     console.log(`      ${bot.role ?? 'no role'}${bot.emblem ? `, ${bot.emblem} emblem` : ''}`);
     if (gaps.length > 0) console.log(`      missing: ${gaps.join(', ')}`);
-    console.log(`      ${bot.kept ? here(bot.kept) : 'no avatar kept yet'}\n`);
+    if (!bot.kept) console.log('      no avatar kept yet\n');
+    else if (onDisk) console.log(`      ${bot.kept}\n`);
+    else console.log(`      ${bot.kept} — not in this checkout, regenerate to recreate it\n`);
   }
 }
 
