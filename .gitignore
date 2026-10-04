@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.DS_Store
+
+# Secrets — the real keys live in .env and must never be committed.
+.env
+.env.*
+!.env.example
+
+# Generated avatars and their run metadata. Every run is reproducible from the
+# template plus bots.yaml, so there is no reason to carry 100s of MB of PNGs.
+outputs/
+
+# Reference images. A few of each family's are checked in so the repo shows what
+# it produces; the rest stay local. Promoted refs land here as NN-name.png, so
+# this keeps 01-04 and ignores everything after.
+*/style-refs/*
+!*/style-refs/0[1-4]-*.png
+
+# Any other image dropped in the tree is local by default.
+*.jpg
+*.jpeg
+*.webp
+*.zip

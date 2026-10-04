@@ -1,0 +1,37 @@
+# A second family, independent of the one at the repo root. Every path below is
+# resolved next to THIS file, so this folder can be moved anywhere — including
+# into its own repo — without touching a line of code.
+#
+#   npm run gen -- "deploy bot" --config work/config.yaml
+
+model: gpt-image-2.5-sunburst
+size: 1024x1024
+quality: high
+
+# Match whatever the template below asks for. "transparent" needs png or webp.
+background: transparent
+
+variants: 4
+keep_sizes: [512, 256, 128]
+
+bots_file: ./bots.yaml
+style_notes_file: ./style.md
+style_refs_dir: ./style-refs
+max_style_refs: 4
+outputs_dir: ./outputs
+
+# The bounded head vocabulary for THIS family — every head is a repurposed
+# display or terminal, so these are hardware, not silhouettes. The describer
+# picks from this list and nothing else; add to it as new roles need new screens.
+head_options:
+  - vertically mounted 4:3 desktop LCD with conference webcam and call-center headset earcups
+  - repurposed video-conferencing terminal with integrated PTZ camera and AV control buttons
+  - wide conference-room scheduling display with dual microphone/speaker modules
+  - repurposed wide desktop analytics monitor with webcam sensor bar and vented side modules
+  - compact square desk-video-phone display with conference camera and speaker modules
+  - rugged industrial panel-mount touchscreen with sealed bezel and service ports
+  - small e-paper room-booking sign with capacitive buttons and a status LED bar
+  - early-2000s thin-client terminal with a thick bezel, vents and legacy ports
+
+describer:
+  model: claude-opus-5

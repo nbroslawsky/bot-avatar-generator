@@ -1,0 +1,174 @@
+# Every bot that has an avatar. One field per slot in references/style.md —
+# edit them by hand any time, then rerun to regenerate.
+bots:
+  - name: research
+    role: research
+    personality: curious and methodical
+    head: rounded hexagon
+    primary: deep teal
+    trim: gold
+    expression: attentive with a slight smile
+    tool: holding a magnifying lens
+    emblem: open book
+    kept: outputs/research/1791083331390/final/research.png
+  - name: chief of staff
+    role: executive coordination
+    personality: decisive, composed, and organized
+    head: rounded rectangle
+    primary: charcoal navy
+    trim: gold
+    expression: calm and attentive, slight confident smile
+    tool: holding a slim clipboard
+    emblem: interlocking chevrons
+    kept: outputs/chief-of-staff/1791083799863/final/chief-of-staff.png
+  - name: writing
+    role: writing and editing
+    personality: articulate, encouraging, and precise
+    head: tall rounded pill
+    primary: plum purple
+    trim: warm gold
+    expression: thoughtful with a gentle smile
+    tool: holding an upright fountain pen
+    emblem: quill nib
+    kept: outputs/writing/1791084221464/final/writing.png
+  - name: tiktok poster
+    role: short-form video posting
+    personality: energetic and trend-savvy
+    head: circular or domed
+    primary: hot magenta
+    trim: electric cyan
+    expression: bright-eyed grin
+    tool: holding a ring-lit phone upright
+    emblem: play button note
+    kept: outputs/tiktok-poster/1791084323806/final/tiktok-poster.png
+  - name: social media performance analyst
+    role: social media performance analysis
+    personality: sharp, data-driven, upbeat
+    head: horizontal capsule
+    primary: electric indigo
+    trim: lime green
+    expression: focused with a confident smirk
+    tool: holding a glowing bar-chart tablet
+    emblem: rising trend arrow
+    kept: >-
+      outputs/social-media-performance-analyst/1791084468427/final/social-media-performance-analyst.png
+  - name: linkedin poster
+    role: professional network publishing
+    personality: polished, upbeat, and persuasive
+    head: compact square
+    primary: corporate blue
+    trim: silver
+    expression: confident with a professional smile
+    tool: holding a small post card with a thumbs-up
+    emblem: linked squares badge
+    kept: outputs/linkedin-poster/1791084586010/final/linkedin-poster.png
+  - name: twitter/x poster
+    role: short-form social posting
+    personality: quick-witted and punchy
+    head: wide rounded trapezoid
+    primary: jet black
+    trim: bright white
+    expression: sharp grin, one raised brow
+    tool: holding a small glowing send arrow
+    emblem: bold X mark
+    kept: outputs/twitter-x-poster/1791084705649/final/twitter-x-poster.png
+  - name: bluesky poster
+    role: bluesky posting
+    personality: breezy and candid
+    head: circular or domed
+    primary: sky blue
+    trim: white
+    expression: bright and open, easy grin
+    tool: holding a small butterfly-shaped tag
+    emblem: butterfly mark
+    kept: outputs/bluesky-poster/1791084829114/final/bluesky-poster.png
+  - name: instagram/reels poster
+    role: short-form visual content publishing
+    personality: vibrant and trend-savvy
+    head: rounded hexagon
+    primary: sunset coral
+    trim: warm gold
+    expression: bright and camera-ready
+    tool: holding a small vertical phone frame
+    emblem: rounded camera square
+    kept: outputs/instagram-reels-poster/1791084830472/final/instagram-reels-poster.png
+  - name: youtube poster
+    role: YouTube video publishing
+    personality: upbeat and cinematic
+    head: horizontal capsule
+    primary: bright red
+    trim: white
+    expression: bright-eyed with a broad grin
+    tool: holding a clapperboard
+    emblem: rounded play button
+    kept: outputs/youtube-poster/1791084829815/final/youtube-poster.png
+  - name: social trends crawler
+    role: social trend discovery
+    personality: inquisitive and quick
+    head: rounded hexagon
+    primary: lime green
+    trim: white
+    expression: wide-eyed and alert
+    tool: holding a radar dish scanner
+    emblem: radar pulse rings
+    kept: outputs/social-trends-crawler/1791084831784/final/social-trends-crawler.png
+  - name: taskmaster
+    role: task management and accountability
+    personality: brisk, organized, and encouraging
+    head: compact square
+    primary: burnt orange
+    trim: gold
+    expression: focused with a firm smile
+    tool: holding a checklist clipboard
+    emblem: checkmark in square
+    kept: outputs/taskmaster/1791085086844/final/taskmaster.png
+  - name: investor
+    role: investment analysis
+    personality: shrewd, patient, and calculating
+    head: compact square
+    primary: forest green
+    trim: gold
+    expression: calm, appraising gaze
+    tool: holding a small candlestick chart tablet
+    emblem: upward bar chart
+    kept: outputs/investor/1791085102794/final/investor.png
+  - name: energy use analyzer
+    role: energy consumption analysis
+    personality: precise and efficiency-minded
+    head: compact square
+    primary: amber yellow
+    trim: electric green
+    expression: focused with a slight smile
+    tool: holding a glowing power meter
+    emblem: lightning bolt gauge
+    kept: outputs/energy-use-analyzer/1791085119447/final/energy-use-analyzer.png
+  - name: motorcycle mechanic
+    role: motorcycle repair
+    personality: practical and unflappable
+    head: wide rounded trapezoid
+    primary: gunmetal gray
+    trim: safety yellow
+    expression: focused with a confident grin
+    tool: holding a torque wrench
+    emblem: piston and gear
+    kept: outputs/motorcycle-mechanic/1791085136267/final/motorcycle-mechanic.png
+  - name: job searcher
+    role: job search
+    personality: driven, optimistic, and organized
+    head: wide rounded trapezoid
+    primary: warm mustard yellow
+    trim: slate gray
+    expression: eager with a confident smile
+    tool: holding a folded résumé
+    emblem: briefcase with magnifier
+    kept: outputs/job-searcher/1791085153320/final/job-searcher.png
+  - name: assistant
+    role: general support
+    personality: helpful, attentive, and upbeat
+    head: tall rounded pill
+    primary: soft turquoise
+    trim: warm white
+    expression: friendly, bright eyes with a slight smile
+    tool: holding a small clipboard
+    emblem: outlined speech bubble with star
+    kept: outputs/assistant/1791085508590/final/assistant.png

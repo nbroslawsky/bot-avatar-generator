@@ -1,0 +1,234 @@
+# Every bot that has an avatar. One field per slot in references/style.md —
+# edit them by hand any time, then rerun to regenerate.
+bots:
+  - name: writing assistant
+    role: writing assistant
+    head: vertically mounted 4:3 desktop LCD with conference webcam and call-center headset earcups
+    torso: compact office laser printer and document-scanner shell
+    hardware: USB hub, printer rails, cable conduits, keyboard-key maintenance controls
+    tool: black-and-brass fountain pen; second gripper gestures conversationally
+    emblem: quill engraved into the former printer output panel
+    primary: faded aubergine
+    expression: thoughtful, friendly, attentive
+  - name: tiktok poster
+    role: tiktok poster
+    head: repurposed video-conferencing terminal with integrated PTZ camera and AV control buttons
+    torso: conference-room video codec and compact office projector shell
+    hardware: smartphone clamp, small ring light, AV ports, gimbal bearings, cable-routing hardware
+    tool: phone-and-ring-light publishing rig; second gripper makes a launch gesture
+    emblem: abstract vertical video frame and upload mark
+    primary: charcoal with faded magenta and cyan equipment markings
+    expression: energetic, quick, socially fluent
+  - name: chief of staff
+    role: chief of staff
+    head: wide conference-room scheduling display with dual microphone/speaker modules
+    torso: meeting-room control processor and enterprise network-switch chassis
+    hardware: rack vents, routing buttons, meeting-room controller ports, articulated monitor mounts
+    tool: repurposed e-paper meeting-room scheduler showing abstract priorities
+    emblem: central hub linked to three nodes
+    primary: deep weathered navy with restrained aged brass
+    expression: calm, perceptive, quietly authoritative
+    kept: outputs/chief-of-staff/1791132685799/final/chief-of-staff.png
+  - name: social performance analyst
+    role: social performance analyst
+    head: repurposed wide desktop analytics monitor with webcam sensor bar and vented side modules
+    torso: small NAS/storage-array chassis with visible drive-bay geometry
+    hardware: network-switch ports, removable drive caddies, data cables, USB diagnostic module
+    tool: rugged retired office tablet showing abstract bars, trend line, and channel dots
+    emblem: rising graph ending in an insight point
+    primary: industrial forest green with oxidized silver and restrained lime markings
+    expression: observant, curious, confident
+  - name: linkedin poster
+    role: linkedin poster
+    head: compact square desk-video-phone display with conference camera and speaker modules
+    torso: employee-badge printer and document-scanner housing
+    hardware: card-feed slot, network adapter, USB-C dock, office-tablet mount
+    tool: repurposed e-paper post-preview slate; second gripper confirms publication
+    emblem: professional profile card linked to two network nodes
+    primary: weathered cobalt with brushed aluminum
+    expression: composed, credible, personable
+  - name: incident response
+    role: incident response
+    head: rugged industrial panel-mount touchscreen with sealed bezel and service ports
+    torso: rackmount UPS and alarm-annunciator panel chassis
+    hardware: >-
+      amber rotating status beacon, breaker switches with safety covers, coiled red patch cables,
+      server rail shoulders
+    tool: holding a retired handheld radio with stub antenna
+    emblem: alert triangle over a pulse line
+    primary: safety amber with charcoal
+    expression: alert and steady, focused
+  - name: vendor manager
+    role: vendor management
+    head: early-2000s thin-client terminal with a thick bezel, vents and legacy ports
+    torso: multi-tray contract copier and document-feeder shell with filing-drawer front
+    hardware: stacked paper trays, rubber-stamp mechanism, binder-clip spine rail, desk-phone keypad module
+    tool: holding a clipboard of carbon-copy purchase orders
+    emblem: two clasped handshake brackets over a check mark
+    primary: muted oxblood maroon
+    expression: shrewd, patient, politely skeptical
+    kept: outputs/vendor-manager/1791132108393/final/vendor-manager.png
+  - name: ciso
+    role: information security leadership
+    head: rugged industrial panel-mount touchscreen with sealed bezel and service ports
+    torso: rackmount firewall appliance and locking badge-access controller chassis
+    hardware: >-
+      hardened key-lock cylinder on access door, banked port LEDs with fiber uplinks, tamper-seal
+      latch, armored shoulder rails
+    tool: holding a steel padlock-style hardware security key
+    emblem: shield over a closed padlock
+    primary: deep slate indigo
+    expression: vigilant and unflinching, calmly severe
+    kept: outputs/ciso/1791132238097/final/ciso.png
+  - name: training attender
+    role: training and learning
+    head: small e-paper room-booking sign with capacitive buttons and a status LED bar
+    torso: classroom AV lectern controller and overhead-projector shell with courseware disc tray
+    hardware: >-
+      clip-on presenter remote, stacked course-binder rail, headphone jack panel, desk-lamp pivot
+      shoulders
+    tool: holding a worn training workbook with sticky tabs
+    emblem: open book above a graduation cap
+    primary: warm mustard ochre
+    expression: eager and attentive, slight smile
+    kept: outputs/training-attender/1791132381659/final/training-attender.png
+  - name: pagerduty manager
+    role: on-call paging and escalation management
+    head: early-2000s thin-client terminal with a thick bezel, vents and legacy ports
+    torso: rackmount telephony/paging gateway chassis with alarm relay module and punch-down block
+    hardware: >-
+      analog phone line ports with coiled handset cord, rotating escalation-roster dial, red strobe
+      lamp, desk-phone speaker module
+    tool: holding a retired alphanumeric pager on a belt clip
+    emblem: pager silhouette over a bell
+    primary: deep oxblood red
+    expression: unflappable, steady, lightly weary
+    kept: outputs/pagerduty-manager/1791132472875/final/pagerduty-manager.png
+  - name: hackathon coordinator
+    role: hackathon coordination
+    head: small e-paper room-booking sign with capacitive buttons and a status LED bar
+    torso: rolling AV cart power-distribution unit and patch-panel chassis with cable channels
+    hardware: >-
+      countdown timer module, coiled multicolor patch cables on a shoulder reel, badge-lanyard rail,
+      USB charging hub bank
+    tool: holding a retired e-paper countdown timer slate
+    emblem: stopwatch over a lightning bolt
+    primary: bright heritage teal with warm gray
+    expression: upbeat and organized, quick-eyed
+    kept: outputs/hackathon-coordinator/1791132555182/final/hackathon-coordinator.png
+  - name: technology vendor reviewer
+    role: technology vendor evaluation
+    head: small e-paper room-booking sign with capacitive buttons and a status LED bar
+    torso: rackmount network appliance and benchtop test-equipment shell with drive bays
+    hardware: >-
+      sliding scorecard rail, loupe-mounted inspection lamp, patch-panel port bank, server rail
+      shoulders
+    tool: holding a retired tablet showing an abstract five-dot rating row
+    emblem: checklist column beside a star
+    primary: slate blue-gray with pale copper accents
+    expression: measured and evaluative, mildly approving
+    kept: outputs/technology-vendor-reviewer/1791132661602/final/technology-vendor-reviewer.png
+  - name: business analyst
+    role: business analysis
+    head: vertically mounted 4:3 desktop LCD with conference webcam and call-center headset earcups
+    torso: desktop flatbed scanner and spreadsheet-workstation tower shell with drive bays
+    hardware: pull-out calculator keypad module, ledger paper tray, ribbon-cable spine, USB diagnostic dock
+    tool: holding a retired 10-key adding machine with curling paper tape
+    emblem: pie chart beside a bar column
+    primary: muted slate teal
+    expression: analytical and measured, faintly amused
+    kept: outputs/business-analyst/1791132667771/final/business-analyst.png
+  - name: project tracker
+    role: project tracking
+    head: small e-paper room-booking sign with capacitive buttons and a status LED bar
+    torso: wide-format plotter chassis with roll-paper door and job-status LED strip
+    hardware: >-
+      roll-paper feed slot, magnetic task-chip rail across the chest, cable-channel shoulders,
+      keyboard-key maintenance controls
+    tool: holding a retired tablet showing an abstract gantt bar chart
+    emblem: three stepped gantt bars with a milestone diamond
+    primary: muted slate teal
+    expression: organized and attentive, faint patient smile
+    kept: outputs/project-tracker/1791132669806/final/project-tracker.png
+  - name: weekly update wrangler
+    role: weekly status reporting
+    head: small e-paper room-booking sign with capacitive buttons and a status LED bar
+    torso: desktop fax-and-copier shell with time-clock punch panel
+    hardware: >-
+      stacked weekly-report paper tray, seven-segment week counter, binder-clip spine rail, bulldog
+      clip shoulder pivots
+    tool: holding a clipped stack of status sheets
+    emblem: calendar grid with a check mark
+    primary: muted mustard ochre
+    expression: patient, mildly insistent, attentive
+    kept: outputs/weekly-update-wrangler/1791132670463/final/weekly-update-wrangler.png
+  - name: tech support
+    role: tech support
+    head: vertically mounted 4:3 desktop LCD with conference webcam and call-center headset earcups
+    torso: desktop workstation tower and KVM switch chassis with open drive bays
+    hardware: coiled blue patch cables, toolkit pouch on hip rail, spare RAM clip, USB diagnostic dongle
+    tool: holding a magnetized screwdriver
+    emblem: wrench crossed with a screwdriver
+    primary: muted slate teal
+    expression: patient and helpful, slight smile
+    kept: outputs/tech-support/1791132669088/final/tech-support.png
+  - name: meeting coordinator
+    role: meeting coordination
+    head: small e-paper room-booking sign with capacitive buttons and a status LED bar
+    torso: desk conference-phone base and room-scheduling panel chassis with booking-door front
+    hardware: >-
+      conference speakerphone pod, analog wall-clock module, cable-channel shoulders, booking status
+      LED strip
+    tool: holding a small desk timer with clip-on booking card
+    emblem: calendar grid with a clock hand
+    primary: soft slate teal
+    expression: attentive, punctual, politely cheerful
+    kept: outputs/meeting-coordinator/1791132673466/final/meeting-coordinator.png
+  - name: meeting attender
+    role: meeting attendance and note-taking
+    head: small e-paper room-booking sign with capacitive buttons and a status LED bar
+    torso: desk conference speakerphone base and transcription-recorder deck with cassette-style bay
+    hardware: >-
+      boom microphone on gooseneck, mute/volume button cluster, coiled headset cable, wall-clock
+      module
+    tool: holding a retired e-paper agenda slate with abstract checklist
+    emblem: three seats around a round table
+    primary: muted slate teal
+    expression: politely attentive, mildly patient
+    kept: outputs/meeting-attender/1791132671517/final/meeting-attender.png
+  - name: executive coach
+    role: executive coaching
+    head: repurposed video-conferencing terminal with integrated PTZ camera and AV control buttons
+    torso: desktop dictation-recorder deck and private-office intercom console shell with cassette bay
+    hardware: >-
+      gooseneck listening microphone, 360-degree feedback dial, coiled headset cable, desk-lamp
+      pivot shoulders
+    tool: holding a worn leather coaching notebook with ribbon marker
+    emblem: two arrows curving upward in a circle
+    primary: warm burnt sienna
+    expression: warm and unhurried, encouraging half-smile
+    kept: outputs/executive-coach/1791132917848/final/executive-coach.png
+  - name: taskmaster
+    role: task assignment and accountability
+    head: repurposed wide desktop analytics monitor with webcam sensor bar and vented side modules
+    torso: queue-ticketing dispatch console and rackmount job-scheduler chassis with ticket-spool door
+    hardware: >-
+      spring-loaded ticket dispenser slot, rotating assignment dial with name tabs, desk-bell
+      module, cable-channel shoulders
+    tool: holding a retired e-paper task board with three abstract columns
+    emblem: checkbox over three stacked task bars
+    primary: burnt orange
+    expression: firm and expectant, one raised eyebrow
+    kept: outputs/taskmaster/1791132916930/final/taskmaster.png
+  - name: meeting prepper
+    role: meeting preparation and agenda briefing
+    head: repurposed video-conferencing terminal with integrated PTZ camera and AV control buttons
+    torso: desktop document-scanner and briefing-copier shell with sorted output trays
+    hardware: >-
+      pre-read binder rail across the chest, agenda paper feed slot, highlighter clip bank,
+      cable-channel shoulders
+    tool: holding a tabbed briefing folder fanned open
+    emblem: folder over a clock face
+    primary: warm burnt orange
+    expression: prepared and brisk, slight encouraging smile
+    kept: outputs/meeting-prepper/1791132919522/final/meeting-prepper.png
